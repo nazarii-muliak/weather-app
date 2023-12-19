@@ -1,0 +1,113 @@
+* {
+  font-family: 'Lato', sans-serif;
+  color: rgb(133, 128, 128);
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.searchfield {
+  border-bottom: 0.2rem solid rgb(133, 128, 128);
+  border-radius: 1rem;
+  width: 80%;
+  height: auto;
+}
+
+.searchfield:hover {
+  border-bottom-width: 0.35rem;
+}
+
+.searchfield>input {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif, 'FontAwesome';
+  background-color: inherit;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.searchfield>input:focus {
+  outline: none;
+}
+
+.search-button {
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  padding-top: 0.3rem;
+}
+
+.search-button:hover {
+  border-width: 0.2rem;
+}
+
+
+.temp-board {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tile {
+  text-align: left;
+}
+
+.item-title {
+  font-size: 3.5rem;
+}
+
+.info-title,
+.date-alias,
+.desc-aux {
+  text-align: left;
+  color: rgba(228, 219, 219, 0.804);
+}
+
+.info-title {
+  font-size: 2rem;
+  font-stretch: semi-condensed;
+}
+
+.date-alias>svg,
+.desc-aux>svg {
+  fill: rgba(228, 219, 219, 0.804);
+}
+
+.temp-sign {
+  font-size: 2.5rem;
+}
+
+.temp-sign>svg {
+  margin-top: 1.5rem;
+  margin-left: 0.2rem;
+}
+
+.item-aux {
+  font-size: 1.5rem;
+  padding-left: 0.7rem;
+}
+
+.desc-aux {
+  font-size: 2rem;
+  padding-left: 0.7rem;
+}
+
+.wind-aux {
+  font-size: small;
+}
+
+#temp-graph>svg {
+  border: 0.2rem solid;
+  padding-left: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.tick {
+  stroke-width: 0;
+}
+
+#cities-temp {
+  background-color: rgb(106 102 104 / 42%);
+  border: 0.2rem solid;
+  border-radius: 2rem;
+}
